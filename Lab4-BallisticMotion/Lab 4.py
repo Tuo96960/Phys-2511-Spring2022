@@ -39,8 +39,6 @@ while arrow_y > 0:
     acceleration_y -= (b/m)*velocity_y
     acceleration_x -= b * velocity_x
     time +=.1
-    print(arrow_x)
-    print(arrow_y)
     
 
 if arrow_y <= 0:
