@@ -38,12 +38,12 @@ for line in lines:
     
 fig = plt.figure()
 fig = plt.figure(figsize=(20, 5))
-fig.set_facecolor("black")
+#fig.set_facecolor("black")
 plt.bar(c_array, y_array, color='darkolivegreen')
-plt.title("2/22/2019 Wind Speeds of Philadelphia and Surrounding Counties", color="w")
-plt.xlabel("Counties", color="w")
-plt.ylabel("Wind Speeds (mph)", color="w")
-plt.figtext(0,0.01, "Wind speeds (mph) in different counties including and around Philadelphia on the day 2/19/2022.", color="w")
+plt.title("2/22/2019 Wind Speeds of Philadelphia and Surrounding Counties", color="darkolivegreen")
+plt.xlabel("Counties", color="darkolivegreen")
+plt.ylabel("Wind Speeds (mph)", color="darkolivegreen")
+plt.figtext(0,0.01, "Wind speeds (mph) in different counties including and around Philadelphia on the day 2/19/2022.", color="darkolivegreen")
 plt.show()
 
 f.close()
